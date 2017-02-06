@@ -1,0 +1,12 @@
+digraph G {
+disasters [style=filled];
+switchpoint;
+early_mean;
+late_mean;
+switchpoint -> late_mean  [arrowhead=none];
+disasters -> late_mean  [arrowhead=none];
+early_mean -> late_mean  [arrowhead=none];
+switchpoint -> disasters  [arrowhead=none];
+early_mean -> disasters  [arrowhead=none];
+early_mean -> switchpoint  [arrowhead=none];
+}
